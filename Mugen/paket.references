@@ -1,0 +1,10 @@
+FSharp.Compiler.Service
+
+File:Utils.fs
+File:TokenMatcher.fs
+File:FormatConfig.fs
+File:SourceParser.fs
+File:SourceTransformer.fs
+File:CodePrinter.fs
+File:CodeFormatterImpl.fs
+File:CodeFormatter.fs
