@@ -2,6 +2,7 @@
 open System.IO
 open Microsoft.FSharp.Compiler.SourceCodeServices
 open Microsoft.FSharp.Compiler.Ast
+open Microsoft.FSharp.Compiler
 open Fantomas
 open Fantomas.FormatConfig
 
@@ -9,9 +10,11 @@ let attrsWithNameSfx (attrs:SynAttributes) name : SynAttributes =
   attrs
   |> List.map (fun attr ->
     let (LongIdentWithDots(id, dotms)) = attr.TypeName
-    printfn "id: %A" id
+    //printfn "id: %A" id
     attr
   )
+
+
   
 let mutName (lid:LongIdent) =
   let txt = lid.Head.idText
@@ -19,7 +22,7 @@ let mutName (lid:LongIdent) =
   [Ident(txt + "_Mut", rng)]
 
 let mutRecordMember (mem:SynMemberDefn) : SynMemberDefn =
-  printfn "Member: %A" mem
+  //printfn "Member: %A" mem
   mem
 
 // Doesn't need to be correct to print an AST

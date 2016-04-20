@@ -1,15 +1,6 @@
 NUGET
   remote: https://www.nuget.org/api/v2
   specs:
+    Fantomas (2.1)
+      FSharp.Compiler.Service (>= 2.0.0.8)
     FSharp.Compiler.Service (3.0)
-GITHUB
-  remote: dungpa/fantomas
-  specs:
-    src/Fantomas/CodeFormatter.fs (df4f5470f919e95ce7318bc717401d5606693783)
-    src/Fantomas/CodeFormatterImpl.fs (df4f5470f919e95ce7318bc717401d5606693783)
-    src/Fantomas/CodePrinter.fs (df4f5470f919e95ce7318bc717401d5606693783)
-    src/Fantomas/FormatConfig.fs (df4f5470f919e95ce7318bc717401d5606693783)
-    src/Fantomas/SourceParser.fs (df4f5470f919e95ce7318bc717401d5606693783)
-    src/Fantomas/SourceTransformer.fs (df4f5470f919e95ce7318bc717401d5606693783)
-    src/Fantomas/TokenMatcher.fs (df4f5470f919e95ce7318bc717401d5606693783)
-    src/Fantomas/Utils.fs (df4f5470f919e95ce7318bc717401d5606693783)

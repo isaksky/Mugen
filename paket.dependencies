@@ -1,12 +1,4 @@
 source https://www.nuget.org/api/v2
 
 nuget FSharp.Compiler.Service
-
-github dungpa/fantomas src/Fantomas/Utils.fs
-github dungpa/fantomas src/Fantomas/TokenMatcher.fs
-github dungpa/fantomas src/Fantomas/FormatConfig.fs
-github dungpa/fantomas src/Fantomas/SourceParser.fs
-github dungpa/fantomas src/Fantomas/SourceTransformer.fs
-github dungpa/fantomas src/Fantomas/CodePrinter.fs
-github dungpa/fantomas src/Fantomas/CodeFormatterImpl.fs
-github dungpa/fantomas src/Fantomas/CodeFormatter.fs
+nuget Fantomas 
